@@ -17,3 +17,14 @@ div {
     background-color: #ddd;
     border: 2px solid black;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #444;
+    }
+    div {
+        background-color: #eee;
+        font-size: 36px;
+    } 
+
+}
