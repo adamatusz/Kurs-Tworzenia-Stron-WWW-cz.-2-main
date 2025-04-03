@@ -5,58 +5,75 @@
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
 	font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
-    background-color: #333;
+	font-size: 1.6rem;
+	/* background-color: #333; */
 }
 
 .hero-shadow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0,.8);
-    z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -1;
 }
 
 .orange-color {
-    color: rgb(255, 102, 0);
+	color: rgb(255, 102, 0);
 }
 /* nawigacja */
 .navbar-brand {
-    font-size: 2.2rem;
-    text-transform: uppercase;
+	font-size: 2.2rem;
+	text-transform: uppercase;
 }
 
-.nav-link, .navbar-toggler-icon {
-    font-size: 1.8rem;
-    text-transform: uppercase;
+.nav-link,
+.navbar-toggler-icon {
+	font-size: 1.8rem;
+	text-transform: uppercase;
 }
 .navbar-toggler {
-    padding: 1em 2em;
+	padding: 1em 2em;
 }
 /* sekcja powitalna */
 .home {
-    position: relative;
-    height: 60rem;
-    background-image: url('../img/city.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
+	position: relative;
+	height: 60rem;
+	background-image: url("../img/city.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
 }
 
 .home .btn {
-    padding: 1em 2em;
-    font-style: 1.4em;
-    text-transform: uppercase;
+	padding: 1em 2em;
+	font-style: 1.4em;
+	text-transform: uppercase;
 }
 
 .home .welcome-text {
-    font-style: 2.2rem;
+	font-style: 2.2rem;
+}
+/* sekcja about us */
+
+.aboutus-box h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.aboutus-icon {
+    font-size: 4rem;
+}
+
+.accordion-button {
+	font-size: 1.8rem;
+	padding: 1em;
 }
