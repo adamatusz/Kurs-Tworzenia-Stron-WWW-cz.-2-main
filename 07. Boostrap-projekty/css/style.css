@@ -12,7 +12,18 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.6rem;
+	position: relative;
 	/* background-color: #333; */
+}
+
+[id] {
+	scroll-margin-top: 87px;
+}
+
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 69px;
+	}
 }
 
 .hero-shadow {
@@ -95,4 +106,15 @@ body {
 
 .team .card-title {
 	font-size: 2rem;
+}
+/* kontakt */
+
+.contact h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contact .submit-btn {
+	font-size: 1.6rem;
 }
