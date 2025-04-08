@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.6rem;
 }
 
@@ -23,6 +23,21 @@ body {
 	z-index: -1;
 }
 
+.top-hero {
+	position: relative;
+	height: 200px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+}
 /* nawigacja */
 
 nav {
@@ -55,13 +70,13 @@ header {
 }
 
 .carousel-img-one {
-	background-image: url("../img/main-carousel-1.jpg");
+	background-image: url('../img/main-carousel-1.jpg');
 }
 .carousel-img-two {
-	background-image: url("../img/main-carousel-2.jpg");
+	background-image: url('../img/main-carousel-2.jpg');
 }
 .carousel-img-three {
-	background-image: url("../img/main-carousel-3.jpg");
+	background-image: url('../img/main-carousel-3.jpg');
 }
 
 /* home */
@@ -81,7 +96,7 @@ header {
 .home-passion {
 	position: relative;
 	height: 350px;
-	background-image: url("../img/home-passion.jpg");
+	background-image: url('../img/home-passion.jpg');
 	background-position: center;
 	background-size: cover;
 	z-index: 0;
@@ -95,9 +110,76 @@ header {
 }
 
 /* footer */
-
 footer {
 	font-size: 1.6rem;
+}
+
+/* about us */
+
+.aboutus-hero {
+	background-image: url('../img/about/about-hero.jpg');
+	background-position: bottom;
+}
+
+/* ----- */
+
+.aboutus-info {
+	background-color: rgb(248, 248, 248);
+}
+
+.aboutus-info .container {
+	padding: 2em 0.5em;
+}
+
+.aboutus-text {
+	padding: 1.8em;
+}
+
+.aboutus-text h3 {
+	margin-bottom: 0.5em;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline #007bff;
+}
+
+.aboutus-text-right {
+	text-align: right;
+}
+
+.aboutus-img {
+	height: 300px;
+	object-fit: cover;
+}
+
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+	}
+
+	.aboutus-text {
+		padding: 5em 0;
+		transform: skew(-15deg);
+	}
+
+	.aboutus-text-left {
+		padding-right: 2em;
+		text-align: right;
+	}
+
+	.aboutus-text-right {
+		padding-left: 2em;
+		text-align: left;
+	}
+
+	.aboutus-img {
+		height: auto;
+		transform: skew(-15deg);
+	}
 }
 
 @media (min-width: 1400px) {
@@ -106,12 +188,12 @@ footer {
 	}
 
 	.carousel-img-one {
-		background-image: url("../img/main-carousel-1-hq.jpg");
+		background-image: url('../img/main-carousel-1-hq.jpg');
 	}
 	.carousel-img-two {
-		background-image: url("../img/main-carousel-2-hq.jpg");
+		background-image: url('../img/main-carousel-2-hq.jpg');
 	}
 	.carousel-img-three {
-		background-image: url("../img/main-carousel-3-hq.jpg");
+		background-image: url('../img/main-carousel-3-hq.jpg');
 	}
 }
