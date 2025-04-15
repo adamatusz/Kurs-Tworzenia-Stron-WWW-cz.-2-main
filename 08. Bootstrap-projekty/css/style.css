@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.6rem;
 }
 
@@ -70,13 +70,13 @@ header {
 }
 
 .carousel-img-one {
-	background-image: url("../img/main-carousel-1.jpg");
+	background-image: url('../img/main-carousel-1.jpg');
 }
 .carousel-img-two {
-	background-image: url("../img/main-carousel-2.jpg");
+	background-image: url('../img/main-carousel-2.jpg');
 }
 .carousel-img-three {
-	background-image: url("../img/main-carousel-3.jpg");
+	background-image: url('../img/main-carousel-3.jpg');
 }
 
 /* home */
@@ -96,7 +96,7 @@ header {
 .home-passion {
 	position: relative;
 	height: 350px;
-	background-image: url("../img/home-passion.jpg");
+	background-image: url('../img/home-passion.jpg');
 	background-position: center;
 	background-size: cover;
 	z-index: 0;
@@ -117,7 +117,7 @@ footer {
 /* about us */
 
 .aboutus-hero {
-	background-image: url("../img/about/about-hero.jpg");
+	background-image: url('../img/about/about-hero.jpg');
 	background-position: bottom;
 }
 
@@ -162,6 +162,64 @@ footer {
 	font-weight: bold;
 }
 
+/* usługi */
+
+.service-hero {
+	background-image: url('../img/service/service-hero.jpg');
+	background-position: 0 75%;
+}
+
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.service-hero-box p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.service-hero-box.box-one {
+	background-image: url('../img/service/engine.jpg');	
+}
+.service-hero-box.box-two {
+	background-image: url('../img/service/visual.jpg');	
+}
+.service-hero-box.box-three {
+	background-image: url('../img/service/car-audio.jpg');	
+}
+.service-hero-box.box-four {
+	background-image: url('../img/service/allinone.jpg');	
+}
+
+
+/* projekty */
+
+
+.projects-hero {
+    background-image: url('../img/projects/project-hero.jpg');
+    background-position: center;
+}
+
+.projects img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.projects .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+
+
 @media (min-width: 992px) {
 	.aboutus-info .container {
 		padding: 0;
@@ -191,40 +249,6 @@ footer {
 		transform: skew(-15deg);
 	}
 }
-/* services */
-
-.service-hero {
-	background-image: url("../img/service/service-hero.jpg");
-	background-position: 0 75%;
-}
-
-.service-hero-box {
-	position: relative;
-	height: 300px;
-	background-size: cover;
-	z-index: 0;
-}
-.service-hero-box p {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: 3rem;
-	text-transform: uppercase;
-	color: #fff;
-}
-.service-hero-box.box-one {
-	background-image: url("../img/service/engine.jpg");
-}
-.service-hero-box.box-two {
-	background-image: url("../img/service/visual.jpg");
-}
-.service-hero-box.box-three {
-	background-image: url("../img/service/car-audio.jpg");
-}
-.service-hero-box.box-four {
-	background-image: url("../img/service/allinone.jpg");
-}
 
 @media (min-width: 1400px) {
 	.carousel-item {
@@ -232,12 +256,12 @@ footer {
 	}
 
 	.carousel-img-one {
-		background-image: url("../img/main-carousel-1-hq.jpg");
+		background-image: url('../img/main-carousel-1-hq.jpg');
 	}
 	.carousel-img-two {
-		background-image: url("../img/main-carousel-2-hq.jpg");
+		background-image: url('../img/main-carousel-2-hq.jpg');
 	}
 	.carousel-img-three {
-		background-image: url("../img/main-carousel-3-hq.jpg");
+		background-image: url('../img/main-carousel-3-hq.jpg');
 	}
 }
