@@ -1,0 +1,10 @@
+# Created by https://www.toptal.com/developers/gitignore/api/jspm
+# Edit at https://www.toptal.com/developers/gitignore?templates=jspm
+
+### jspm ###
+jspm_packages
+
+# folder
+/09. Bootstrap-projekty/zasoby/
+
+# End of https://www.toptal.com/developers/gitignore/api/jspm
